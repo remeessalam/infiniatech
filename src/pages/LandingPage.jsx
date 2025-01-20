@@ -139,10 +139,14 @@ const LandingPage = ({ page }) => {
       <Portfolio page={page} />
       <section className="py-[4rem] bg-[#D8D8D8A3]">
         <div className="wrapper space-y-3">
-          <h2 data-aos="fade-up" className="section-heading text-center">
+          <h2
+            data-aos="fade-up"
+            data-aos-offset="-1100"
+            className="section-heading text-center"
+          >
             Industries We Serve
           </h2>
-          <p data-aos="fade-up" className="text-center">
+          <p data-aos="fade-up" data-aos-offset="-1100" className="text-center">
             Using powerful, industry-specific software solutions, our team can
             help you achieve your business goals.
           </p>
@@ -152,6 +156,7 @@ const LandingPage = ({ page }) => {
               return (
                 <div
                   data-aos="fade-up"
+                  data-aos-offset="-1100"
                   key={item.title}
                   className="text-center p-5 bg-white rounded-xl space-y-3"
                 >
@@ -166,11 +171,16 @@ const LandingPage = ({ page }) => {
         </div>
       </section>
       <section className="pt-[4rem]">
-        <h2 data-aos="fade-up" className="wrapper section-heading text-center">
+        <h2
+          data-aos="fade-up"
+          data-aos-offset="-1100"
+          className="wrapper section-heading text-center"
+        >
           How {companyDetails?.name} helps you deliver the best results
         </h2>
         <div
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="wrapper grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-[3rem] mt-10"
         >
           {[
@@ -218,6 +228,7 @@ const LandingPage = ({ page }) => {
       <section className="wrapper pt-[4rem] lg:mt-[9rem]">
         <div
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="relative min-h-[40vh] rounded-xl overflow-hidden"
         >
           <div className="absolute inset-0 bg-black/40 md:bg-black/20 z-[-1]"></div>
@@ -243,23 +254,26 @@ const LandingPage = ({ page }) => {
       <section className="pt-[4rem] wrapper space-y-3">
         <h2
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="section-heading text-center md:mb-[2rem]"
         >
-          Why Work With Us?
+          Why Choose {companyDetails.name}?
         </h2>
         <div className="flex flex-col gap-5">
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#6B308C] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
+                <h1 className="section-heading text-white mb-4">
+                  Wide-ranging Expertise{" "}
+                </h1>
                 <p className="md:text-lg text-white font-semibold">
-                  Our team combines creativity, technical expertise, and a
-                  passion for excellence to bring your vision to life. With
-                  attention to detail and a client-first approach, we ensure
-                  every project meets your unique requirements and delivers
-                  lasting results.
+                  Our team brings deep knowledge across multiple technological
+                  domains, allowing us to provide comprehensive solutions
+                  tailored to your business.
                 </p>
                 <Quote
                   className="size-10 fill-white/20 self-end mt-3"
@@ -276,15 +290,19 @@ const LandingPage = ({ page }) => {
 
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#FE7624] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
+                {" "}
+                <h1 className="section-heading text-white mb-4">
+                  Tailored Solutions{" "}
+                </h1>
                 <p className="md:text-lg text-white font-semibold">
-                  At {companyDetails?.name}, we deliver excellence across web
-                  and app development, UI/UX design, game development, and
-                  blockchain solutions. Our expertise ensures innovative,
-                  scalable results tailored to your goals.
+                  We understand that every business is unique. That’s why we
+                  take the time to create customized solutions that align with
+                  your specific goals.
                 </p>
                 <Quote
                   className="size-10 fill-white/20 self-end mt-3"
@@ -301,15 +319,18 @@ const LandingPage = ({ page }) => {
 
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#F45C7B] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
+                <h1 className="section-heading text-white mb-4">
+                  Innovation at the Core
+                </h1>
                 <p className="md:text-lg text-white font-semibold">
-                  Transform your digital presence with our robust web and app
-                  solutions. From feature-rich websites to high-performing
-                  mobile apps, we ensure seamless functionality and cutting-edge
-                  design to achieve your business goals.
+                  We are always at the cutting edge of technology, ensuring your
+                  business benefits from the latest advancements and
+                  innovations.
                 </p>
                 <Quote
                   className="size-10 fill-white/20 self-end mt-3"
@@ -326,15 +347,18 @@ const LandingPage = ({ page }) => {
 
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#507FD7] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
               <div className="md:px-[2.5rem]">
+                <h1 className="section-heading text-white mb-4">
+                  Proven Success
+                </h1>
                 <p className="md:text-lg text-white font-semibold">
-                  At {companyDetails?.name}, we deliver tailored solutions
-                  across industries. From enhancing patient care in Healthcare
-                  to empowering E-commerce and driving innovation in Technology,
-                  we cater to diverse business needs with precision.
+                  Our portfolio speaks for itself. We’ve successfully delivered
+                  results for clients across various industries and built
+                  lasting relationships based on trust and excellence.
                 </p>
                 <Quote
                   className="size-10 fill-white/20 self-end mt-3"

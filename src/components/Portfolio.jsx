@@ -16,6 +16,7 @@ const Portfolio = ({ page }) => {
       <div className="wrapper flex flex-col items-start sm:items-center gap-5">
         <h2
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="section-heading max-w-[60rem] mx-auto text-start sm:text-center"
         >
           Work Speaks Volumes: Discover Our Projects
@@ -24,6 +25,7 @@ const Portfolio = ({ page }) => {
           {portfolioList.map(({ img, id, title }) => (
             <div
               data-aos="fade-up"
+              data-aos-offset="-1100"
               key={id}
               className="p-3 border-2 border-secondary group rounded-xl aspect-square shadow-inner_shadow shadow-secondary/20"
             >

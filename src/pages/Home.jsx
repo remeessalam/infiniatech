@@ -343,7 +343,7 @@ const Home = () => {
             <img
               src={whyWorkWithUs2}
               alt=""
-              className="md:absolute right-0 bottom-0 max-h-[16rem] md:max-h-[24rem] object-contain"
+              className="md:absolute right-0 max-w-[30rem] bottom-0 max-h-[16rem] md:max-h-[24rem] object-contain"
             />
           </div>
 
