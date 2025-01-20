@@ -33,7 +33,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const { pathname } = useLocation();
   return (
-    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-black/50">
+    <div className="fixed top-0 left-0 py-4 z-50 w-full backdrop-blur-sm bg-white">
       <div className="flex wrapper items-center gap-8 justify-between">
         <Link to="/" className="cursor-pointer">
           <img
@@ -50,8 +50,8 @@ const Header = () => {
             <Link
               key={link.name}
               to={link.path}
-              className={`link text-white ${
-                pathname === link.path && "font-semibold !text-sky-300"
+              className={`link text-black ${
+                pathname === link.path && "font-semibold !text-primary"
               }`}
             >
               {link.name}

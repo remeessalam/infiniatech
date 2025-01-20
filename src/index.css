@@ -56,7 +56,7 @@ html {
     @apply px-5 py-[.6rem] flex justify-center items-center gap-2 font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-large;
   }
   .link {
-    @apply transition-all duration-300 hover:text-sky-300 cursor-pointer;
+    @apply transition-all duration-300 hover:text-primary cursor-pointer;
   }
   .gradient-text {
     @apply bg-gradient-to-r text-transparent from-sky-300 to-[#61b061] bg-clip-text;
