@@ -560,7 +560,7 @@ operational costs.
 
   {
     title: "Artificial Intelligence Development",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/ai-dev-vector.png"),
     shortDesc:
       "Unlock the potential of AI with customized solutions that enhance automation and intelligence.",
     technologies: [
@@ -571,9 +571,9 @@ operational costs.
       "Reinforcement Learning",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/ai1.jpg"),
+      second: require("../assets/images/services/ai2.png"),
+      third: require("../assets/images/services/ai3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -645,14 +645,14 @@ more efficient solutions for your customers and team.
 
   {
     title: "Data Science Services",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/data-dev-vector.png"),
     shortDesc:
       "Leverage data-driven insights to make smarter decisions and drive business growth.",
     technologies: ["Python", "R", "Hadoop", "Spark", "Tableau"],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/data1.jpg"),
+      second: require("../assets/images/services/data2.png"),
+      third: require("../assets/images/services/data3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -795,14 +795,14 @@ across all platforms. Whether you’re developing a mobile game, a virtual reali
 
   {
     title: "Machine Learning Services",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/ml-dev-vector.png"),
     shortDesc:
       "Harness the power of machine learning to improve your business processes and decision-making.",
     technologies: ["TensorFlow", "Keras", "PyTorch", "Scikit-Learn", "OpenCV"],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/ml1.jpg"),
+      second: require("../assets/images/services/ml2.png"),
+      third: require("../assets/images/services/ml3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -810,7 +810,7 @@ across all platforms. Whether you’re developing a mobile game, a virtual reali
             </h2>
             <p class="mb-10">
               Machine learning is transforming industries by enabling systems to learn from data and make
-predictions with increasing accuracy. At [Your Company Name], we provide machine
+predictions with increasing accuracy. At <span class="font-semibold">INFINIA TECH</span>, we provide machine
 learning solutions that help businesses predict outcomes, enhance decision-making, and
 automate processes. Whether you’re looking to optimize operations or develop personalized
 customer experiences, our team is here to build custom machine learning models that meet
@@ -866,14 +866,14 @@ efficiency and effectiveness.
 
   {
     title: "Natural Language Processing (NLP)",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/nlp-dev-vector.png"),
     shortDesc:
       "Leverage the power of NLP to analyze and understand human language for better insights.",
     technologies: ["NLTK", "spaCy", "GPT-3", "BERT", "Python"],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/nlp1.jpg"),
+      second: require("../assets/images/services/nlp2.png"),
+      third: require("../assets/images/services/nlp3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -933,21 +933,20 @@ responses, and extract valuable insights from unstructured data.
   },
   {
     title: "App Development",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/app-dev-vector.png"),
     shortDesc:
       "Build robust, user-friendly mobile apps that engage users and deliver business value.",
     technologies: ["React Native", "Swift", "Kotlin", "Flutter", "Xcode"],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/appdevelopment1.jpg"),
+      second: require("../assets/images/services/appdevelopment2.png"),
+      third: require("../assets/images/services/appdevelopment3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
 App Development: Creating Seamless, High-Performance Mobile Apps            </h2>
             <p class="mb-10">
-In today’s fast-paced digital world, a great mobile app can set your business apart. At [Your
-Company Name], we specialize in developing high-performance mobile applications that are
+In today’s fast-paced digital world, a great mobile app can set your business apart. At <span class="font-semibold">INFINIA TECH</span>, we specialize in developing high-performance mobile applications that are
 intuitive, fast, and secure. Whether you need a native iOS or Android app, or a cross-platform
 solution, our developers focus on creating user-centered experiences that drive engagement
 and increase retention.<br/><br/> In today’s mobile-first world, having a high-quality app is essential for connecting with
@@ -1009,7 +1008,7 @@ user experiences.
 
   {
     title: "Robotic Process Automation (RPA)",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/rpa-dev-vector.png"),
     shortDesc:
       "Automate repetitive tasks with RPA to enhance efficiency, reduce costs, and improve accuracy.",
     technologies: [
@@ -1019,9 +1018,9 @@ user experiences.
       "Power Automate",
     ],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/rpa1.jpg"),
+      second: require("../assets/images/services/rpa2.png"),
+      third: require("../assets/images/services/rpa3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -1029,7 +1028,7 @@ Robotic Process Automation (RPA): Streamlining Operations and Enhancing
 Efficiency            </h2>
             <p class="mb-10">
             Robotic Process Automation (RPA) helps businesses automate repetitive, time-consuming
-tasks to improve efficiency and reduce operational costs. At [Your Company Name], we
+tasks to improve efficiency and reduce operational costs. At <span class="font-semibold">INFINIA TECH</span>, we
 specialize in RPA solutions that help businesses streamline their workflows, reduce errors,
 and free up resources for more strategic tasks. Our RPA services are customized to meet your
 specific needs, enabling you to improve productivity and drive digital transformation.<br/><br/>
@@ -1086,15 +1085,15 @@ across your organization.
   },
 
   {
-    title: "UI / UX Design",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    title: "UI-UX Design",
+    image: require("../assets/images/uiux-dev-vector.png"),
     shortDesc:
       "Design intuitive and visually appealing interfaces that enhance user experience and engagement.",
     technologies: ["Figma", "Sketch", "Adobe XD", "InVision", "Zeplin"],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/uiux1.jpg"),
+      second: require("../assets/images/services/uiux2.png"),
+      third: require("../assets/images/services/uiux3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
@@ -1151,14 +1150,14 @@ more enjoyable.<br/><br/>
 
   {
     title: "Chat Bot Development",
-    image: require("../assets/images/blockchain-dev-vector.png"),
+    image: require("../assets/images/chat-dev-vector.png"),
     shortDesc:
       "Enhance customer engagement and support with intelligent, conversational chatbots.",
     technologies: ["Dialogflow", "Botpress", "Rasa", "Microsoft Bot Framework"],
     detailsPageImages: {
-      first: require("../assets/images/services/blockchain1.jpg"),
-      second: require("../assets/images/services/blockchain2.png"),
-      third: require("../assets/images/services/blockchain3.png"),
+      first: require("../assets/images/services/chat1.jpg"),
+      second: require("../assets/images/services/chat2.png"),
+      third: require("../assets/images/services/chat3.png"),
     },
     html: {
       firstSection: `<h2 class="text-xl font-semibold mb-4">
