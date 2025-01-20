@@ -169,10 +169,14 @@ const Home = () => {
       <ServicesWeProvide />
       <section className="py-[4rem] bg-[#D8D8D8A3]">
         <div className="wrapper space-y-3">
-          <h2 data-aos="fade-up" className="section-heading text-center">
+          <h2
+            data-aos="fade-up"
+            data-aos-offset="-1100"
+            className="section-heading text-center"
+          >
             Industries We Serve
           </h2>
-          <p data-aos="fade-up" className="text-center">
+          <p data-aos="fade-up" data-aos-offset="-1100" className="text-center">
             Using powerful, industry-specific software solutions, our team can
             help you achieve your business goals.
           </p>
@@ -182,6 +186,7 @@ const Home = () => {
               return (
                 <div
                   data-aos="fade-up"
+                  data-aos-offset="-1100"
                   key={item.title}
                   className="text-center p-5 bg-white rounded-xl space-y-3"
                 >
@@ -196,11 +201,16 @@ const Home = () => {
         </div>
       </section>
       <section className="pt-[4rem]">
-        <h2 data-aos="fade-up" className="wrapper section-heading text-center">
+        <h2
+          data-aos="fade-up"
+          data-aos-offset="-1100"
+          className="wrapper section-heading text-center"
+        >
           How {companyDetails?.name} helps you deliver the best results
         </h2>
         <div
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="wrapper grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-[3rem] mt-10"
         >
           {[
@@ -248,6 +258,7 @@ const Home = () => {
       <section className="wrapper pt-[4rem] lg:mt-[9rem]">
         <div
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="relative min-h-[40vh] rounded-xl overflow-hidden"
         >
           <div className="absolute inset-0 bg-black/40 md:bg-black/20 z-[-1]"></div>
@@ -273,6 +284,7 @@ const Home = () => {
       <section className="pt-[4rem] wrapper space-y-3">
         <h2
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="section-heading text-center md:mb-[2rem]"
         >
           Why Choose {companyDetails.name}?
@@ -280,6 +292,7 @@ const Home = () => {
         <div className="flex flex-col gap-5">
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#6B308C] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
@@ -307,6 +320,7 @@ const Home = () => {
 
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#FE7624] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
@@ -335,6 +349,7 @@ const Home = () => {
 
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#F45C7B] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">
@@ -362,6 +377,7 @@ const Home = () => {
 
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="bg-[#507FD7] min-h-[50vh] relative p-5 flex flex-col-reverse md:flex-row items-center gap-4 rounded-xl overflow-hidden"
           >
             <div className="flex flex-col md:w-8/12 lg:w-9/12">

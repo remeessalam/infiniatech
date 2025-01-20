@@ -7,10 +7,18 @@ import { ArrowLinkButton } from "../ArrowButtons";
 const ServicesWeProvide = () => {
   return (
     <div id="services" className="py-[4rem] wrapper">
-      <h2 data-aos="fade-up" className="section-heading text-center">
+      <h2
+        data-aos="fade-up"
+        data-aos-offset="-1100"
+        className="section-heading text-center"
+      >
         Services We Provide
       </h2>
-      <div data-aos="fade-up" className="mt-10 pb-5 grid md:grid-cols-2 gap-5">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="-1100"
+        className="mt-10 pb-5 grid md:grid-cols-2 gap-5"
+      >
         {services.map((item, i) => (
           <Link
             key={item.title}

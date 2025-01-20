@@ -9,12 +9,14 @@ const WorkProcess = () => {
     <div className="relative flex justify-end">
       <img
         data-aos="fade-up"
+        data-aos-offset="-1100"
         src={img}
         className="absolute inset-0 -z-10 object-cover h-full w-full"
         alt="Work Process"
       />
       <div
         data-aos="fade-up"
+        data-aos-offset="-1100"
         className="bg-white/60 sm:w-3/5 md:w-5/12 h-full px-5 py-[4rem] space-y-5"
       >
         <h3 className="section-heading">How We Build</h3>

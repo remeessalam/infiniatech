@@ -26,6 +26,7 @@ const AboutUs = () => {
         <div className="relative z-10 h-full w-full">
           <div
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="pt-[10rem] pb-[3rem] h-full wrapper text-white z-10 flex flex-col gap-3 justify-center items-center"
           >
             <h1 className="heading-2 max-w-5xl text-center">
@@ -56,6 +57,7 @@ const AboutUs = () => {
         <div className="wrapper">
           <h2
             data-aos="fade-up"
+            data-aos-offset="-1100"
             className="section-heading text-center text-white"
           >
             Our Values
@@ -81,6 +83,7 @@ const AboutUs = () => {
               return (
                 <div
                   data-aos="fade-up"
+                  data-aos-offset="-1100"
                   key={title}
                   className="p-5 bg-white/5 backdrop-blur-sm text-white space-y-3 rounded-xl"
                 >
@@ -98,6 +101,7 @@ const AboutUs = () => {
       <section className="pt-[4rem] wrapper">
         <div
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="max-w-5xl mx-auto rounded-2xl overflow-hidden grid md:grid-cols-2"
         >
           <div className="overflow-hidden relative">

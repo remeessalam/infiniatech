@@ -67,10 +67,19 @@ const BlogsSection = () => {
   );
   return (
     <section className="pt-[4rem] wrapper">
-      <h2 data-aos="fade-up" className="section-heading text-center capitalize">
+      <h2
+        data-aos="fade-up"
+        data-aos-offset="-1100"
+        className="section-heading text-center capitalize"
+      >
         Browse our latest blog articles
       </h2>
-      <div data-aos="fade-up" ref={sliderRef} className="keen-slider mt-7">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="-1100"
+        ref={sliderRef}
+        className="keen-slider mt-7"
+      >
         {[blog1, blog2, blog3].map((item, i) => (
           <Link
             to="/blogs/1"
@@ -92,6 +101,7 @@ const BlogsSection = () => {
       {loaded && instanceRef.current && (
         <div
           data-aos="fade-up"
+          data-aos-offset="-1100"
           className="flex items-center justify-center gap-4 mt-10"
         >
           <button

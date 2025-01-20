@@ -71,6 +71,7 @@ const ContactForm = ({ headline, id }) => {
     >
       <div
         data-aos="fade-right"
+        data-aos-offset="-1100"
         className="bg-purpleColor text-white p-8 sm:p-10 rounded-2xl"
       >
         <h3 className="section-heading">
@@ -175,6 +176,7 @@ const ContactForm = ({ headline, id }) => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-offset="-1100"
         className="bg-[#F7F7F9] rounded-2xl md:block hidden overflow-hidden"
       >
         <img src={img} alt="Contact" className="h-full w-full object-cover" />
