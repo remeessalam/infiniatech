@@ -9,7 +9,7 @@ export const companyDetails = {
   address: "pune , magarpatta city",
   phone: "+91-95031 43378",
   whatsapp: "9503143378",
-  email: "abc@example.com",
+  email: "saurabhholikar6@gmail.com",
 };
 
 // working process
